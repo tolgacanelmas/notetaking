@@ -1,5 +1,7 @@
 Note Taking App
 
+Project link (https://notetaking-flax.vercel.app/)
+
 Create, edit, delete or filter your notes.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
