@@ -9,6 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.8.4",
+    "@mantine/form": "^5.9.2",
+    "@mantine/hooks": "^5.8.4",
+    "@mantine/next": "^5.8.4",
+    "@tabler/icons": "^1.118.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
@@ -16,7 +23,9 @@
     "eslint-config-next": "13.0.5",
     "next": "13.0.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
     "typescript": "4.9.3"
   }
 }
