@@ -1,6 +1,6 @@
 Note Taking App
 
-Project link (https://notetaking-flax.vercel.app/)
+Project link https://notetaking-flax.vercel.app/
 
 Create, edit, delete or filter your notes.
 
