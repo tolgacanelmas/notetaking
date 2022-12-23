@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
-import { Box, Checkbox, createStyles, Modal, Text } from '@mantine/core'
+import { Box, Button, Checkbox, createStyles, Modal, Text } from '@mantine/core'
 
 import Notes from '../components/Notes';
 import FilterNotes from '../components/FilterNotes';
+import Link from 'next/link';
 
 const useStyles = createStyles((theme, _params) => ({
   entry: {
@@ -43,9 +44,14 @@ export default function Home({ setIsEditable }) {
             borderRadius: theme.radius.md,
             marginTop: 20
           })}>
-          <Text className={classes.entry}>
+          <Text className={classes.entry} mb={30}>
             Create, update or delete your notes!
           </Text>
+          <Link href='/create-note'>
+            <Button radius="xl" size="md">
+              Start Creating Notes
+            </Button>
+          </Link>
         </Box>
       }
     </div>

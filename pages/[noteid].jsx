@@ -8,7 +8,8 @@ const useStyles = createStyles((theme, _params) => ({
     color: theme.colors.white,
   },
   body: {
-    color: theme.colors.white
+    color: theme.colors.white,
+    whiteSpace: 'pre-line'
   },
   noteContainer: {
     backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[0],

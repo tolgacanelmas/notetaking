@@ -17,7 +17,7 @@ export default function Notes({ storedFilteredNotes }) {
                                 ))}
                         </Group>
 
-                        <Text size="sm" color="dimmed">
+                        <Text size="sm" color="dimmed" lineClamp={4}>
                             {note.body}
                         </Text>
                     </Card>
