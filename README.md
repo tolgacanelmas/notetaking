@@ -1,4 +1,12 @@
+Note Taking App
+
+Create, edit, delete or filter your notes.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Used Mantine React Components Library.
+
+![noketaking](public/index.png)
 
 ## Getting Started
 
